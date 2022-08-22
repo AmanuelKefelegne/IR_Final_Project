@@ -30,16 +30,18 @@ function Prefix(word){
     }
 }
 function Suffix(word){
-    let text=wordconvert(word);
-     //let text ="ሰዉነት"=="ሰውኡነትእ"=="ሰዉ";
-    if (text.substring(text.length - 2) == "ነት") {
+    let text=wordconvert(word).toString();
+    //let text ="ሰዉነት"=="ሰውኡነትእ"=="ሰዉ"
+    if (text.substring(text.length-4)=="ኡነትእ") {
         stemm+=" "+text.substring(0, text.length - 4);
         stat=1;
     }
+    //let text="ቤቶች"=="ብኤትኦችእ"=="ቤት"
     if(text.substring(text.length-3)=="ኦችእ"){
         stemm+=" "+word.substring(0,word.length-2)+text.substring(text.length-4,text.length-3);
         stat=1;
     }
+    //let text="ጫማዎች"=="ጭኣምኣውኦችእ"=="ጫማ"
     if(text.substring(text.length-5)=="ኣውኦችእ"){
         stemm+=" "+word.substring(0,word.length-2);
         stat=1;
@@ -49,14 +51,24 @@ function Suffix(word){
         stemm+=" "+word.substring(0,word.length-1)+text.substring(text.length-2,text.length-1);
         stat=1;
     }
-    //let text ="ቤቷ"=="ብኤትኧ"=="ቤት";
+    //let text ="ቤቷ"=="ብኤትኧ"=="ቤት"
     if(text.substring(text.length-3)=="ኤትኧ"){
         stemm+=" "+word.substring(0,word.length-1)+text.substring(text.length-2,text.length-1);
         stat=1;
     }
     //let text ="ቤቴ"=="ብኤትኤ"=="ቤት"
-    if(text.substring(text.length-3)=="ኤትኤ" || text.substring(text.length-3)=="ኣይኤ"){
+    if(text.substring(text.length-3)=="ኤትኤ"){
         stemm+=" "+word.substring(0,word.length-1)+text.substring(text.length-2,text.length-1);
+        stat=1;
+    }
+    //let text="መኪናዬ"=="መክኢንኣይኤ"=="መኪና"
+    if(text.substring(text.length-3)=="ኣይኤ"){
+        stemm+=" "+word.substring(0,word.length-1);
+        stat=1;
+    }
+    //let text="መታቸው"=="መትኣቸውእ"=="መታ"
+    if(text.substring(text.length-4)=="ኣቸውእ"){
+        stemm+=" "+word.substring(0,word.length-2);
         stat=1;
     }
 }
