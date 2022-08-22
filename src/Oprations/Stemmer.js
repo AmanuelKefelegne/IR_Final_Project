@@ -31,12 +31,33 @@ function Prefix(word){
 }
 function Suffix(word){
     let text=wordconvert(word);
-    if (text.substring(text.length - 1, text.length) == "ት" && text.substring(text.length - 2, text.length - 1) == "ነ") {
-        stemm+=" "+text.substring(0, text.length - 2);
+     //let text ="ሰዉነት"=="ሰውኡነትእ"=="ሰዉ";
+    if (text.substring(text.length - 2) == "ነት") {
+        stemm+=" "+text.substring(0, text.length - 4);
         stat=1;
     }
     if(text.substring(text.length-3)=="ኦችእ"){
-        stemm+=" "+word.substring(0,word.length-2)+text.substring(2,text.length-3);
+        stemm+=" "+word.substring(0,word.length-2)+text.substring(text.length-4,text.length-3);
+        stat=1;
+    }
+    if(text.substring(text.length-5)=="ኣውኦችእ"){
+        stemm+=" "+word.substring(0,word.length-2);
+        stat=1;
+    }
+    //let text = "ቤቱ"=="ብኤትኡ"=="ቤት";
+    if(text.substring(text.length-3)=="ኤትኡ"){
+        stemm+=" "+word.substring(0,word.length-1)+text.substring(text.length-2,text.length-1);
+        stat=1;
+    }
+    //let text ="ቤቷ"=="ብኤትኧ"=="ቤት";
+    if(text.substring(text.length-3)=="ኤትኧ"){
+        stemm+=" "+word.substring(0,word.length-1)+text.substring(text.length-2,text.length-1);
+        stat=1;
+    }
+    //let text ="ቤቴ"=="ብኤትኤ"=="ቤት"
+    if(text.substring(text.length-3)=="ኤትኤ" || text.substring(text.length-3)=="ኣይኤ"){
+        stemm+=" "+word.substring(0,word.length-1)+text.substring(text.length-2,text.length-1);
+        stat=1;
     }
 }
 function Infix(word) {

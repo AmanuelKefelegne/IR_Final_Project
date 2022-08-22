@@ -225,25 +225,25 @@ function wordconvert(word){
         }
         //ቐ
         if (word[i]=="ቐ") {
-            cvword+="";
+            cvword+=word[i];
         }
         if (word[i]=="ቑ") {
-            cvword+="";
+            cvword+="ቕኡ";
         }
         if (word[i]=="ቒ") {
-            cvword+="";
+            cvword+="ቕኢ";
         }
         if (word[i]=="ቓ") {
-            cvword+="";
+            cvword+="ቕኣ";
         }
         if (word[i]=="ቔ") {
-            cvword+="";
+            cvword+="ቕኤ";
         }
         if (word[i]=="ቕ") {
-            cvword+="";
+            cvword+="ቕእ";
         }
         if (word[i]=="ቖ") {
-            cvword+="";
+            cvword+="ቕኦ";
         }
         //በ
         if (word[i]=="በ") {
@@ -272,28 +272,28 @@ function wordconvert(word){
         }
         //ቨ
         if (word[i]=="ቨ") {
-            cvword+="";
+            cvword+=word[i];
         }
         if (word[i]=="ቩ") {
-            cvword+="";
+            cvword+="ቭኡ";
         }
         if (word[i]=="ቪ") {
-            cvword+="";
+            cvword+="ቭኢ";
         }
         if (word[i]=="ቫ") {
-            cvword+="";
+            cvword+="ቭኣ";
         }
         if (word[i]=="ቬ") {
-            cvword+="";
+            cvword+="ቭኤ";
         }
         if (word[i]=="ቭ") {
-            cvword+="";
+            cvword+="ቭእ";
         }
         if (word[i]=="ቮ") {
-            cvword+="";
+            cvword+="ቭኦ";
         }
         if (word[i]=="ቯ") {
-            cvword+="";
+            cvword+="ቭኧ";
         }
         //ተ
         if (word[i]=="ተ") {
@@ -347,569 +347,569 @@ function wordconvert(word){
         }
         //ኀ
         if (word[i]=="ኀ") {
-            cvword+="";
+            cvword+=word[i];
         }
         if (word[i]=="ኁ") {
-            cvword+="";
+            cvword+="ኅኡ";
         }
         if (word[i]=="ኂ") {
-            cvword+="";
+            cvword+="ኅኢ";
         }
         if (word[i]=="ኃ") {
-            cvword+="";
+            cvword+="ኅኣ";
         }
         if (word[i]=="ኄ") {
-            cvword+="";
+            cvword+="ኅኤ";
         }
         if (word[i]=="ኅ") {
-            cvword+="";
+            cvword+="ኅእ";
         }
         if (word[i]=="ኆ") {
-            cvword+="";
+            cvword+="ኅኦ";
         }
         if (word[i]=="ኇ") {
-            cvword+="";
+            cvword+="ኅኧ";
         }
         //ነ
         if (word[i]=="ነ") {
-            cvword+="";
+            cvword+=word[i];
         }
         if (word[i]=="ኑ") {
-            cvword+="";
+            cvword+="ንኡ";
         }
         if (word[i]=="ኒ") {
-            cvword+="";
+            cvword+="ንኢ";
         }
         if (word[i]=="ና") {
-            cvword+="";
+            cvword+="ንኣ";
         }
         if (word[i]=="ኔ") {
-            cvword+="";
+            cvword+="ንኤ";
         }
         if (word[i]=="ን") {
-            cvword+="";
+            cvword+="ንእ";
         }
         if (word[i]=="ኖ") {
-            cvword+="";
+            cvword+="ንኦ";
         }
         if (word[i]=="ኗ") {
-            cvword+="";
+            cvword+="ንኧ";
         }
         //ኘ
         if (word[i]=="ኘ") {
-            cvword+="";
+            cvword+=word[i];
         }
         if (word[i]=="ኙ") {
-            cvword+="";
+            cvword+="ኝኡ";
         }
         if (word[i]=="ኚ") {
-            cvword+="";
+            cvword+="ኝኢ";
         }
         if (word[i]=="ኛ") {
-            cvword+="";
+            cvword+="ኝኣ";
         }
         if (word[i]=="ኜ") {
-            cvword+="";
+            cvword+="ኝኤ";
         }
         if (word[i]=="ኝ") {
-            cvword+="";
+            cvword+="ኝእ";
         }
         if (word[i]=="ኞ") {
-            cvword+="";
+            cvword+="ኝኦ";
         }
         if (word[i]=="ኟ") {
-            cvword+="";
+            cvword+="ኝኧ";
         }
         //አ
         if (word[i]=="አ") {
-            cvword+="";
+            cvword+=word[i];
         }
         if (word[i]=="ኡ") {
-            cvword+="";
+            cvword+="እኡ";
         }
         if (word[i]=="ኢ") {
-            cvword+="";
+            cvword+="እኢ";
         }
         if (word[i]=="ኣ") {
-            cvword+="";
+            cvword+="እኣ";
         }
         if (word[i]=="ኤ") {
-            cvword+="";
+            cvword+="እኤ";
         }
         if (word[i]=="እ") {
-            cvword+="";
+            cvword+="እእ";
         }
         if (word[i]=="ኦ") {
-            cvword+="";
+            cvword+="እኦ";
         }
         if (word[i]=="ኧ") {
-            cvword+="";
+            cvword+="እኧ";
         }
         //ከ
         if (word[i]=="ከ") {
-            cvword+="";
+            cvword+=word[i];
         }
         if (word[i]=="ኩ") {
-            cvword+="";
+            cvword+="ክኡ";
         }
         if (word[i]=="ኪ") {
-            cvword+="";
+            cvword+="ክኢ";
         }
         if (word[i]=="ካ") {
-            cvword+="";
+            cvword+="ክኣ";
         }
         if (word[i]=="ኬ") {
-            cvword+="";
+            cvword+="ክኤ";
         }
         if (word[i]=="ክ") {
-            cvword+="";
+            cvword+="ክእ";
         }
         if (word[i]=="ኮ") {
-            cvword+="";
+            cvword+="ክኦ";
         }
         if (word[i]=="ኯ" || word[i]=="ኳ") {
-            cvword+="";
+            cvword+="ክኧ";
         }
         //ኸ
         if (word[i]=="ኸ") {
-            cvword+="";
+            cvword+=word[i];
         }
         if (word[i]=="ኹ") {
-            cvword+="";
+            cvword+="ኽኡ";
         }
         if (word[i]=="ኺ") {
-            cvword+="";
+            cvword+="ኽኢ";
         }
         if (word[i]=="ኻ") {
-            cvword+="";
+            cvword+="ኽኣ";
         }
         if (word[i]=="ኼ") {
-            cvword+="";
+            cvword+="ኽኤ";
         }
         if (word[i]=="ኽ") {
-            cvword+="";
+            cvword+="ኽእ";
         }
         if (word[i]=="ኾ") {
-            cvword+="";
+            cvword+="ኽኦ";
         }
         //ወ
         if (word[i]=="ወ") {
-            cvword+="";
+            cvword+=word[i];
         }
         if (word[i]=="ዉ") {
-            cvword+="";
+            cvword+="ውኡ";
         }
         if (word[i]=="ዊ") {
-            cvword+="";
+            cvword+="ውኢ";
         }
         if (word[i]=="ዋ") {
-            cvword+="";
+            cvword+="ውኣ";
         }
         if (word[i]=="ዌ") {
-            cvword+="";
+            cvword+="ውኤ";
         }
         if (word[i]=="ው") {
-            cvword+="";
+            cvword+="ውእ";
         }
         if (word[i]=="ዎ") {
-            cvword+="";
+            cvword+="ውኦ";
         }
         //ዐ
         if (word[i]=="ዐ") {
-            cvword+="";
+            cvword+=word[i];
         }
         if (word[i]=="ዑ") {
-            cvword+="";
+            cvword+="ዕኡ";
         }
         if (word[i]=="ዒ") {
-            cvword+="";
+            cvword+="ዕኢ";
         }
         if (word[i]=="ዓ") {
-            cvword+="";
+            cvword+="ዕኣ";
         }
         if (word[i]=="ዔ") {
-            cvword+="";
+            cvword+="ዕኤ";
         }
         if (word[i]=="ዕ") {
-            cvword+="";
+            cvword+="ዕእ";
         }
         if (word[i]=="ዖ") {
-            cvword+="";
+            cvword+="ዕኦ";
         }
         //ዘ
         if (word[i]=="ዘ") {
-            cvword+="";
+            cvword+=word[i];
         }
         if (word[i]=="ዙ") {
-            cvword+="";
+            cvword+="ዝኡ";
         }
         if (word[i]=="ዚ") {
-            cvword+="";
+            cvword+="ዝኢ";
         }
         if (word[i]=="ዛ") {
-            cvword+="";
+            cvword+="ዝኣ";
         }
         if (word[i]=="ዜ") {
-            cvword+="";
+            cvword+="ዝኤ";
         }
         if (word[i]=="ዝ") {
-            cvword+="";
+            cvword+="ዝእ";
         }
         if (word[i]=="ዞ") {
-            cvword+="";
+            cvword+="ዝኦ";
         }
         if (word[i]=="ዟ") {
-            cvword+="";
+            cvword+="ዝኧ";
         }
         //ዠ
         if (word[i]=="ዠ") {
-            cvword+="";
+            cvword+=word[i];
         }
         if (word[i]=="ዡ") {
-            cvword+="";
+            cvword+="ዥኡ";
         }
         if (word[i]=="ዢ") {
-            cvword+="";
+            cvword+="ዥኢ";
         }
         if (word[i]=="ዣ") {
-            cvword+="";
+            cvword+="ዥኣ";
         }
         if (word[i]=="ዤ") {
-            cvword+="";
+            cvword+="ዥኤ";
+        }
+        if (word[i]=="ዥ"){
+            cvword+="ዥእ";
         }
         if (word[i]=="ዦ") {
-            cvword+="";
+            cvword+="ዥኦ";
         }
         if (word[i]=="ዧ") {
-            cvword+="";
+            cvword+="ዥኧ";
         }
         //የ
         if (word[i]=="የ") {
-            cvword+="";
+            cvword+=word[i];
         }
         if (word[i]=="ዩ") {
-            cvword+="";
+            cvword+="ይኡ";
         }
         if (word[i]=="ዪ") {
-            cvword+="";
+            cvword+="ይኢ";
         }
         if (word[i]=="ያ") {
-            cvword+="";
+            cvword+="ይኣ";
         }
         if (word[i]=="ዬ") {
-            cvword+="";
+            cvword+="ይኤ";
         }
         if (word[i]=="ይ") {
-            cvword+="";
+            cvword+="ይእ";
         }
         if (word[i]=="ዮ") {
-            cvword+="";
+            cvword+="ይኦ";
         }
         if (word[i]=="ዯ") {
-            cvword+="";
+            cvword+="ይኧ";
         }
         //ደ
         if (word[i]=="ደ") {
-            cvword+="";
+            cvword+=word[i];
         }
         if (word[i]=="ዱ") {
-            cvword+="";
+            cvword+="ድኡ";
         }
         if (word[i]=="ዲ") {
-            cvword+="";
+            cvword+="ድኢ";
         }
         if (word[i]=="ዳ") {
-            cvword+="";
+            cvword+="ድኣ";
         }
         if (word[i]=="ዴ") {
-            cvword+="";
+            cvword+="ድኤ";
         }
         if (word[i]=="ድ") {
-            cvword+="";
+            cvword+="ድእ";
         }
         if (word[i]=="ዶ") {
-            cvword+="";
+            cvword+="ድኦ";
         }
         if (word[i]=="ዷ") {
-            cvword+="";
+            cvword+="ድኧ";
         }
         //ዸ
         if (word[i]=="ዸ") {
-            cvword+="";
+            cvword+=word[i];
         }
         if (word[i]=="ዹ") {
-            cvword+="";
+            cvword+="ዽኡ";
         }
         if (word[i]=="ዺ") {
-            cvword+="";
+            cvword+="ዽኢ";
         }
         if (word[i]=="ዻ") {
-            cvword+="";
+            cvword+="ዽኣ";
         }
         if (word[i]=="ዼ") {
-            cvword+="";
+            cvword+="ዽኤ";
         }
         if (word[i]=="ዽ") {
-            cvword+="";
+            cvword+="ዽእ";
         }
         if (word[i]=="ዾ") {
-            cvword+="";
+            cvword+="ዽኦ";
         }
         if (word[i]=="ዿ") {
-            cvword+="";
+            cvword+="ዽኧ";
         }
         //ጀ
         if (word[i]=="ጀ") {
-            cvword+="";
+            cvword+=word[i];
         }
         if (word[i]=="ጁ") {
-            cvword+="";
+            cvword+="ጅኡ";
         }
         if (word[i]=="ጂ") {
-            cvword+="";
+            cvword+="ጅኢ";
         }
         if (word[i]=="ጃ") {
-            cvword+="";
+            cvword+="ጅኣ";
         }
         if (word[i]=="ጄ") {
-            cvword+="";
+            cvword+="ጅኤ";
         }
         if (word[i]=="ጅ") {
-            cvword+="";
+            cvword+="ጅእ";
         }
         if (word[i]=="ጆ") {
-            cvword+="";
+            cvword+="ጅኦ";
         }
         if (word[i]=="ጇ") {
-            cvword+="";
+            cvword+="ጅኧ";
         }
         //ገ
         if (word[i]=="ገ") {
-            cvword+="";
+            cvword+=word[i];
         }
         if (word[i]=="ጉ") {
-            cvword+="";
+            cvword+="ግኡ";
         }
         if (word[i]=="ጊ") {
-            cvword+="";
+            cvword+="ግኢ";
         }
         if (word[i]=="ጋ") {
-            cvword+="";
+            cvword+="ግኣ";
         }
         if (word[i]=="ጌ") {
-            cvword+="";
+            cvword+="ግኤ";
         }
         if (word[i]=="ግ") {
-            cvword+="";
+            cvword+="ግእ";
         }
         if (word[i]=="ጎ") {
-            cvword+="";
+            cvword+="ግኦ";
         }
         if (word[i]=="ጏ" || word[i]=="ጓ") {
-            cvword+="";
+            cvword+="ግኧ";
         }
         //ጘ
         if (word[i]=="ጘ") {
-            cvword+="";
+            cvword+=word[i];
         }
         if (word[i]=="ጙ") {
-            cvword+="";
+            cvword+="ጝኡ";
         }
         if (word[i]=="ጚ") {
-            cvword+="";
+            cvword+="ጝኢ";
         }
         if (word[i]=="ጛ") {
-            cvword+="";
+            cvword+="ጝኣ";
         }
         if (word[i]=="ጜ") {
-            cvword+="";
+            cvword+="ጝኤ";
         }
         if (word[i]=="ጝ") {
-            cvword+="";
+            cvword+="ጝእ";
         }
         if (word[i]=="ጞ") {
-            cvword+="";
+            cvword+="ጝኦ";
         }
         if (word[i]=="ጟ") {
-            cvword+="";
+            cvword+="ጝኧ";
         }
         //ጠ
         if (word[i]=="ጠ") {
-            cvword+="";
+            cvword+=word[i];
         }
         if (word[i]=="ጡ") {
-            cvword+="";
+            cvword+="ጥኡ";
         }
         if (word[i]=="ጢ") {
-            cvword+="";
+            cvword+="ጥኢ";
         }
         if (word[i]=="ጣ") {
-            cvword+="";
+            cvword+="ጥኣ";
         }
         if (word[i]=="ጤ") {
-            cvword+="";
+            cvword+="ጥኤ";
         }
         if (word[i]=="ጥ") {
-            cvword+="";
+            cvword+="ጥእ";
         }
         if (word[i]=="ጦ") {
-            cvword+="";
+            cvword+="ጥኦ";
         }
         if (word[i]=="ጧ") {
-            cvword+="";
+            cvword+="ጥኧ";
         }
         //ጨ
         if (word[i]=="ጨ") {
-            cvword+="";
+            cvword+=word[i];
         }
         if (word[i]=="ጩ") {
-            cvword+="";
+            cvword+="ጭኡ";
         }
         if (word[i]=="ጪ") {
-            cvword+="";
+            cvword+="ጭኢ";
         }
         if (word[i]=="ጫ") {
-            cvword+="";
+            cvword+="ጭኣ";
         }
         if (word[i]=="ጬ") {
-            cvword+="";
+            cvword+="ጭኤ";
         }
         if (word[i]=="ጭ") {
-            cvword+="";
+            cvword+="ጭእ";
         }
         if (word[i]=="ጮ") {
-            cvword+="";
+            cvword+="ጭኦ";
         }
         if (word[i]=="ጯ") {
-            cvword+="";
+            cvword+="ጯኧ";
         }
         //ጰ
         if (word[i]=="ጰ") {
-            cvword+="";
+            cvword+=word[i];
         }
         if (word[i]=="ጱ") {
-            cvword+="";
+            cvword+="ጵኡ";
         }
         if (word[i]=="ጲ") {
-            cvword+="";
+            cvword+="ጵኢ";
         }
         if (word[i]=="ጳ") {
-            cvword+="";
+            cvword+="ጵኣ";
         }
         if (word[i]=="ጴ") {
-            cvword+="";
+            cvword+="ጵኤ";
         }
         if (word[i]=="ጵ") {
-            cvword+="";
+            cvword+="ጵእ";
         }
         if (word[i]=="ጶ") {
-            cvword+="";
+            cvword+="ጵኦ";
         }
         if (word[i]=="ጷ") {
-            cvword+="";
+            cvword+="ጵኧ";
         }
         //ጸ
         if (word[i]=="ጸ") {
-            cvword+="";
+            cvword+=word[i];
         }
         if (word[i]=="ጹ") {
-            cvword+="";
+            cvword+="ጽኡ";
         }
         if (word[i]=="ጺ") {
-            cvword+="";
+            cvword+="ጽኢ";
         }
         if (word[i]=="ጻ") {
-            cvword+="";
+            cvword+="ጽኣ";
         }
         if (word[i]=="ጼ") {
-            cvword+="";
+            cvword+="ጵኤ";
         }
         if (word[i]=="ጽ") {
-            cvword+="";
+            cvword+="ጽእ";
         }
         if (word[i]=="ጾ") {
-            cvword+="";
+            cvword+="ጽኦ";
         }
         if (word[i]=="ጿ") {
-            cvword+="";
+            cvword+="ጽኧ";
         }
         //ፀ
         if (word[i]=="ፀ") {
-            cvword+="";
+            cvword+=word[i];
         }
         if (word[i]=="ፁ") {
-            cvword+="";
+            cvword+="ፅኡ";
         }
         if (word[i]=="ፂ") {
-            cvword+="";
+            cvword+="ፅኢ";
         }
         if (word[i]=="ፃ") {
-            cvword+="";
+            cvword+="ፅኣ";
         }
         if (word[i]=="ፄ") {
-            cvword+="";
+            cvword+="ፅኤ";
         }
         if (word[i]=="ፅ") {
-            cvword+="";
+            cvword+="ፅእ";
         }
         if (word[i]=="ፆ") {
-            cvword+="";
+            cvword+="ፅኦ";
         }
         if (word[i]=="ፇ") {
-            cvword+="";
+            cvword+="ፅኧ";
         }
         //ፈ
         if (word[i]=="ፈ") {
-            cvword+="";
+            cvword+=word[i];
         }
         if (word[i]=="ፉ") {
-            cvword+="";
+            cvword+="ፍኡ";
         }
         if (word[i]=="ፊ") {
-            cvword+="";
+            cvword+="ፍኢ";
         }
         if (word[i]=="ፋ") {
-            cvword+="";
+            cvword+="ፍኣ";
         }
         if (word[i]=="ፌ") {
-            cvword+="";
+            cvword+="ፍኤ";
         }
         if (word[i]=="ፍ") {
-            cvword+="";
-        }
-        if (word[i]=="ፍ") {
-            cvword+="";
+            cvword+="ፍእ";
         }
         if (word[i]=="ፎ") {
-            cvword+="";
+            cvword+="ፍኦ";
         }
         if (word[i]=="ፏ") {
-            cvword+="";
+            cvword+="ፍኧ";
         }
         //ፐ
         if (word[i]=="ፐ") {
-            cvword+="";
+            cvword+=word[i];
         }
         if (word[i]=="ፑ") {
-            cvword+="";
+            cvword+="ፕኡ";
         }
         if (word[i]=="ፒ") {
-            cvword+="";
+            cvword+="ፕኢ";
         }
         if (word[i]=="ፓ") {
-            cvword+="";
+            cvword+="ፕኣ";
         }
         if (word[i]=="ፔ") {
-            cvword+="";
+            cvword+="ፕኤ";
         }
         if (word[i]=="ፕ") {
-            cvword+="";
+            cvword+="ፕእ";
         }
         if (word[i]=="ፖ") {
-            cvword+="";
+            cvword+="ፕኦ";
         }
         if (word[i]=="ፗ") {
-            cvword+="";
+            cvword+="ፕኧ";
         }
     }
 }
