@@ -1,3 +1,4 @@
+export let toprev=[];
 let inp=0;
 let inplist=[];
 let qul=0;
@@ -5,7 +6,8 @@ let l=0;
 let listlen=[];
 let cosin=[];
 let c=0;
-function CosinSimi(termF,termFq,stemm,wordF,filenum){
+
+function CosinSimi(termF,termFq,filenum){
 for(let j=0;j<filenum;j++){
     for(let i=0;i<termF.length;i++){
         inp+=termFq[i]*termF[i,j];
@@ -28,5 +30,10 @@ for(let i=0;i<filenum;i++){
 }
 cosin+=c;
 c=0;
+for(let as;as<cosin.length;as++){
+    let  maxx=Math.max(...cosin);
+    toprev[as]=cosin.indexOf(maxx);
+    cosin[cosin.indexOf(maxx)]=0;
+}
 }
 export default CosinSimi

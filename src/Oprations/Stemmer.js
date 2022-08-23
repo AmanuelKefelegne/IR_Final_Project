@@ -1,4 +1,4 @@
-import wordconvert from './Operations/wordconvert';
+import wordconvert from './wordconvert';
 let stemm=[];
 let stat=0;
 function Stemmer(word) {
