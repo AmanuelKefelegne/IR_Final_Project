@@ -21,7 +21,7 @@ function Quary(query){
 }
 function File(){
     for(let filenum=1;filenum<=3;filenum++){
-    fs.readFile('text'+filenum+'.txt','utf8',(err,data)=>{
+    fs.readFile('./CORPUS/doc'+filenum+'.txt','utf8',(err,data)=>{
     if (err){
         console.error(err);
         return;
@@ -33,7 +33,7 @@ function File(){
         stemm[j]+=stem2[i];
         j++;
     }
-    fs.writeFile('text1'+filenum+'.txt',stem2,err=>{
+    fs.writeFile('./STEMME/doc1'+filenum+'.txt',stem2,err=>{
         if(err){
             console.err;
             return;
@@ -42,7 +42,7 @@ function File(){
 
 });}
 for(let k=0;k<=3;i++){
-fs.readFile('text1'+filenum+'.txt','utf8',(err,data)=>{
+fs.readFile('./STEMME/doc1'+filenum+'.txt','utf8',(err,data)=>{
     if (err){
         console.error(err);
         return;
