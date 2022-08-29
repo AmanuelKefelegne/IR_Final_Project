@@ -912,4 +912,6 @@ function wordconvert(word){
             cvword+="ፕኧ";
         }
     }
+    return cvword;
 }
+export default wordconvert

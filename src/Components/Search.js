@@ -1,7 +1,7 @@
 import React from 'react'
 import ResultItem from './ResultItem'
-import {toprev} from '../Oprations/CosinSimi';
-import {files} from '../Oprations/Query';
+//import {toprev} from '../Oprations/CosinSimi';
+//import {files} from '../Oprations/Query';
 
 import { useParams } from "react-router-dom"
 import { SearchBar } from './SearchHome';
@@ -20,7 +20,7 @@ function Search() {
             <div className='px-8'>
                 {
                     [1].map(() => (
-                        <ResultItem props={{ title: files[toprev[0]], desc: "This will be the description of the Main Title - Replace With Variable or something", link:"https://google.com" }} />
+                        <ResultItem props={{ title: "files[toprev[0]]", desc: "This will be the description of the Main Title - Replace With Variable or something", link:"https://google.com" }} />
                     ))
                 }
             </div>

@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Query from '../Oprations/Query';
 import { useNavigate, useParams } from "react-router-dom";
 
 function SearchHome() {
@@ -26,7 +27,7 @@ function SearchBar({props}) {
   return (
     <form onSubmit={search} className={`flex w-full space-x-3 ${props?.searchresults ? "" : "justify-center"}`}>
       <input type="text" placeholder="Type here" class="input input-bordered input-primary w-full max-w-xs" value={query} onChange={(e) => setQuery(e.target.value)} />
-      <button class="btn btn-primary">Search</button>
+      <button class="btn btn-primary" onClick={Query("ሰዉነት ጫማዎች እንደሰዉነት")} >Search</button>
     </form>
   )
 }

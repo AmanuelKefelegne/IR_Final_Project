@@ -26,7 +26,7 @@ for(let i=0;i<filenum;i++){
     l=0;
 }
 for(let i=0;i<filenum;i++){
- c=inplist[i]/Math.sqrt(qul*listlen[i])   
+    c=inplist[i]/Math.sqrt(qul*listlen[i]);   
 }
 cosin+=c;
 c=0;
@@ -35,5 +35,6 @@ for(let as;as<cosin.length;as++){
     toprev[as]=cosin.indexOf(maxx);
     cosin[cosin.indexOf(maxx)]=0;
 }
+return cosin;
 }
 export default CosinSimi
